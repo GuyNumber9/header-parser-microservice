@@ -1,0 +1,29 @@
+{
+  "name": "header-parser-microservice",
+  "version": "1.0.0",
+  "description": "A microservice that parses the request header and returns the values as a JSON object.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuyNumber9/header-parser-microservice.git"
+  },
+  "keywords": [
+    "express",
+    "node"
+  ],
+  "author": "Saud Shaban",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GuyNumber9/header-parser-microservice/issues"
+  },
+  "homepage": "https://github.com/GuyNumber9/header-parser-microservice#readme",
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "cors": "2.8.5",
+    "express": "4.17.1"
+  }
+}
